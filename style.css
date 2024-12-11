@@ -1,0 +1,84 @@
+.quest-1 button {
+  background-color: #4CAF50;
+  border-radius: 12px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.quest-1 button:hover {
+  background-color: #45a049;
+}
+
+.quest-2 {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.quest-3 .numero-contador {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.quest-4 li {
+  margin: 5px;
+  border-bottom: 1px solid #66cad0;
+  display: flex;
+  gap: 5px;
+}
+
+.quest-4 .remove-button {
+  background-color: red;
+  border: none;
+  border-radius: 50%;
+}
+
+.claro {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.escuro {
+  background-color: #333;
+  color: #fff;
+}
+
+#progress-container {
+  width: 100%;
+  background-color: #e0e0e0;
+}
+
+#progress-bar {
+  width: 0;
+  height: 30px;
+  background-color: #76c7c0;
+}
+
+.quest-8{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+.quest-9 {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.quest-9 th,
+.quest-9 td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.quest-9 tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.erro {
+  border: 1px solid red;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>prova n3- priscila torres</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="claro">
+  <main>
+    <div class="quest-6">
+      <button onclick="alternarTema()">Alterar Tema</button>
+    </div>
+    <div class="quest-1 quest-2">
+      <button onclick="handleButtonAlertClick()" class="quest-1">
+        clique aqui
+      </button>
+      <div id="caixa-texto"></div>
+    </div>
+
+    <div id="contador" class="quest-3">
+      valor: <span id="numero-contador">0</span>
+      <button onclick="incrementar()" class="quest-3">
+        incrementar
+      </button>
+    </div>
+
+    <div class="quest-4">
+      <button onclick="adicionarLista()" class="quest-4">
+        Adicionar à lista
+      </button>
+      <input type="text" id="input-4" class="quest-4">
+      <ul id="lista"></ul>
+    </div>
+
+    <div class="quest-7">
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+      </div>
+      <button onclick="carregar()">Carregar</button>
+    </div>
+
+    <div class="quest-8">
+      <button onclick="iniciarTimer()">iniciar</button>
+      <div id="timer">10</div>
+    </div>
+
+    <div>
+      <input id="nome" placeholder="Nome"/>
+      <input id="idade" placeholder="Idade"/>
+      <button onclick="adicionarTabela()">Adicionar</button>
+    </div>
+    <table id="tabela" class="quest-9">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+
+    <div class="quest-10">
+      <form id="form-cadastro">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome-10" name="nome" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" id="email-10" name="email" required>
+        <br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha-10" name="senha" required>
+        <br>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
